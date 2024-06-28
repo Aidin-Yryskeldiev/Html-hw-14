@@ -1,0 +1,357 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	width: 1519px;
+	margin: 0 auto;
+	min-height: 900px;
+}
+
+.background_ul {
+	width: 100%;
+	height: 53px;
+	background-color: rgba(33, 33, 33, 1);
+}
+
+ul {
+	display: flex;
+	gap: 50px;
+	list-style: none;
+	justify-content: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 17px;
+}
+
+.background_tel {
+	width: 100%;
+	height: 87px;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.icon_moscow {
+	padding-left: 21%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.text_offical {
+	color: white;
+	padding-left: 21%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.calling {
+	color: white;
+	padding-left: 55%;
+	position: relative;
+	top: -40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.tell_number {
+	display: flex;
+	justify-content: center;
+	padding-left: 288px;
+	position: relative;
+	top: -40px;
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+}
+
+.button_request {
+	width: 172px;
+	height: 46px;
+	border: none;
+	color: white;
+	background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+	cursor: pointer;
+	position: relative;
+	top: -88px;
+	left: 68%;
+	border-radius: 4px;
+}
+
+.background_photo {
+	background: url("./images/uber_bg.png") center center/cover no-repeat;
+	min-height: 700px;
+	width: 100%;
+}
+
+.title_text {
+	text-align: center;
+	font-size: 55px;
+	padding: 30px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.title_drive {
+	text-align: center;
+	font-size: 34px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	top: -20px;
+}
+
+.text {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_send {
+	width: 259px;
+	height: 55px;
+	border: none;
+	color: white;
+	background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+	cursor: pointer;
+	border-radius: 4px;
+	margin-top: 150px;
+	margin-left: 650px;
+}
+
+.button_advantages {
+	width: 115px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: none;
+	position: relative;
+	left: 720px;
+	top: 50px;
+	cursor: pointer;
+}
+
+.title_work {
+	position: relative;
+	top: 100px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 38px;
+}
+
+.backgound_color {
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	position: relative;
+	top: 100px;
+}
+
+.button_possibilities {
+	width: 115px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border: none;
+	position: relative;
+	left: 720px;
+	top: 50px;
+	cursor: pointer;
+}
+
+.text_choise {
+	text-align: center;
+	font-size: 38px;
+	padding: 80px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_car {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	bottom: 70px;
+}
+
+.photo_car {
+	display: flex;
+	margin: 0 auto;
+}
+
+.car {
+	text-align: center;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_voz {
+	width: 130px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: none;
+	position: relative;
+	top: 150px;
+	cursor: pointer;
+	display: flex;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.title_conditions {
+	position: relative;
+	top: 180px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 38px;
+}
+
+.text_conditions {
+	position: relative;
+	padding-left: 160px;
+	top: 200px;
+	font-size: 22px;
+	color: rgba(28, 168, 195, 1);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_checbox {
+	position: relative;
+	top: 220px;
+	padding-left: 180px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_money {
+	position: relative;
+	top: 250px;
+	padding-left: 160px;
+	font-size: 17px;
+	color: rgba(28, 168, 195, 1);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_auto {
+	position: relative;
+	padding-left: 350px;
+	bottom: 62px;
+	text-align: center;
+	font-size: 22px;
+	color: rgba(28, 168, 195, 1);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.yslovia {
+	position: relative;
+	padding-left: 420px;
+	bottom: 50px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.background_world {
+	background: url("./images/world_bg.png") center center/cover no-repeat;
+	width: 100%;
+	min-height: 750px;
+	position: relative;
+	top: 100px;
+}
+
+.button_city {
+	width: 79px;
+	height: 27px;
+	color: black;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	top: 48px;
+	left: 717px;
+}
+
+.text_world {
+	text-align: center;
+	font-size: 38px;
+	padding: 80px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_city {
+	color: rgba(31, 186, 214, 1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 450px;
+}
+
+.ball {
+	display: flex;
+	gap: 15px;
+}
+
+.ball_baby {
+	width: 35px;
+	height: 35px;
+	background-color: black;
+	border-radius: 50%;
+	position: relative;
+	top: 200px;
+	left: 20px;
+	padding-top: 10px;
+	padding-left: 8px;
+}
+
+.pahan_text {
+	display: flex;
+	gap: 50px;
+}
+
+.text_three {
+	position: relative;
+	top: 200px;
+	left: 330px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.mahan_text {
+	display: flex;
+	gap: 30px;
+}
+
+.mahan_text {
+	position: relative;
+	top: 250px;
+	right: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: grey;
+}
+
+.text_russian {
+	position: relative;
+	top: 300px;
+	right: 530px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(31, 186, 214, 1);
+}
+
+.ssylka {
+	position: relative;
+	top: 180px;
+	left: 79%;
+}
+
+.line {
+	width: 390px;
+	height: 7px;
+	background-color: rgba(31, 186, 214, 1);
+	position: relative;
+	top: 60px;
+	left: 580px;
+}
